@@ -1,3 +1,5 @@
 This is just a simple CF wrapper for the goo.gl API. 
 
-Currently only supports shortening and expanding links.
+Currently only supports shortening and expanding links. API Key not required, but recommended by Google. 
+
+By default will only shorten on-domain URLs, but if you pass a 2nd argument to the remote CFC with the value of external you can force external URLs to be allowed. Removing this functionality would be trivial if it is undesired.
